@@ -1,0 +1,26 @@
+{
+  "name": "mevisite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackathon-da-diversidade/mevisite.git"
+  },
+  "keywords": [
+    "ONGs",
+    "Lares",
+    "Visitas",
+    "Voluntarios",
+    "Residentes"
+  ],
+  "author": "Inimigos da Previdencia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackathon-da-diversidade/mevisite/issues"
+  },
+  "homepage": "https://github.com/hackathon-da-diversidade/mevisite#readme"
+}
