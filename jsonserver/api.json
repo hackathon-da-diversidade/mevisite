@@ -1,0 +1,10 @@
+{
+  "lares": [
+    {
+      "id": 1,
+      "nome": "Exemplo de nome de algum lar",
+      "voluntarios": 45,
+      "residentes": 80
+    }
+  ]
+}
