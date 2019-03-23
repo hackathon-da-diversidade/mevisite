@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
     "start:api": "cd jsonserver && json-server api.json",
     "start:site": "cd public && httpserver --port 8080"
   },
@@ -24,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/hackathon-da-diversidade/mevisite/issues"
   },
-  "homepage": "https://github.com/hackathon-da-diversidade/mevisite#readme"
+  "homepage": "https://github.com/hackathon-da-diversidade/mevisite#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
