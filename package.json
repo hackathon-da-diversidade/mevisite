@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:api": "cd jsonserver && json-server api.json"
+    "start:api": "cd jsonserver && json-server api.json",
+    "start:site": "cd public && httpserver --port 8080"
   },
   "repository": {
     "type": "git",
