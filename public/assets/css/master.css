@@ -1,8 +1,45 @@
 
 .foto > img{
   width: 100%;
+  border-radius: 100%;
 }
 
-.dados h1{
-  font-size: 
+.dados h1.nome-e-idade{
+  font-size: 2.8em;
+  margin-bottom: 0px;
+}
+
+.dados h2{
+  font-style: italic;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.preferencias ul li {
+  list-style:
+}
+
+p.sonho{
+  padding: 40px 10px;
+  border: 2px solid orange;
+  width: auto;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+
+p.titulo-historia{
+  font-weight: bold;
+}
+
+ul li.like{
+  list-style-image: url('../img/like.png');
+
+}
+
+
+
+
+.bg-cinza{
+  background: lightgray;
 }
