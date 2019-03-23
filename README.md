@@ -20,3 +20,8 @@ $ npm run start:site
 ```
 $ npm run start:api
 ```
+
+## Padrão de mensagem de commit
+```
+"[@githubuser] - messagem de commit"
+```
