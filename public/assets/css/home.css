@@ -15,7 +15,6 @@ body {
 .topo nav {
   padding: 15px 0px;
   text-align: right;
-  width: 1024px;
   margin: 0 auto
 }
 
@@ -55,7 +54,6 @@ body {
 }
 
 main.content > section {
-  width: 1024px;
   margin: 0 auto;
   padding: 30px 0px;
 }
@@ -76,7 +74,6 @@ main.content > section {
 }
 
 .lista-residentes li {
-  width: 25%;
   margin-bottom: 50px;
 }
 
@@ -151,4 +148,26 @@ main.content > section {
 .btn.btn-voltar {
   border: none;
   text-align: left;
+}
+
+@media (min-width: 320px) {
+
+  .topo nav,
+  main.content > section {
+    width: 100%;
+  }
+  .lista-residentes li {
+    width: 50%;
+  }
+}
+
+@media (min-width: 961px) {
+  .lista-residentes li {
+    width: 25%;
+  }
+
+  .topo nav,
+  main.content > section {
+    width: 1024px;
+  }
 }
