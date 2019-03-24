@@ -1,0 +1,31 @@
+body{
+  font-family: 'Dosis', sans-serif;
+}
+
+.topo nav {
+  padding: 15px 0px;
+  text-align: right;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #00b2b4;
+}
+
+.topo nav ul {
+  overflow: hidden;
+  display: inline-block;
+}
+
+.topo nav li {
+  width: auto;
+  float: left;
+  margin-left: 20px;
+}
+
+.topo nav a {
+  display: block;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+}
