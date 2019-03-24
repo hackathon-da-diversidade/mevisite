@@ -30,11 +30,18 @@ p.sonho{
 
 p.titulo-historia{
   font-weight: bold;
+  padding-top: 25px;
 }
 
-ul li.like{
-  list-style-image: url('../img/like.png');
 
+ul li.like{
+  background: url('../img/like.png') no-repeat left bottom;
+  padding: 25px 10px 4px 55px;
+}
+
+ul li.dislike{
+  background: url('../img/dislike.png') no-repeat left bottom;
+  padding: 25px 10px 4px 55px;
 }
 
 
