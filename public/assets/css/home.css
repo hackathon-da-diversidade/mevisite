@@ -42,18 +42,11 @@ body {
 /* banner principal */
 
 .topo .banner {
-  background: #ccc;
-  text-align: center;
-  margin: 0 auto;
+
 }
 
 .topo .banner img {
-  border: 1px solid #000;
-  display: block;
-  width: 1024px;
-  height: 200px;
-  left: 10%;
-  margin: 0 auto;
+
 }
 
 /* contéudo */
