@@ -1,5 +1,8 @@
 # mevisite
 
+## Nosso site *-*
+https://mevisite.herokuapp.com/
+
 ## Como instalar
 ```
 $ cd meviste
@@ -11,7 +14,7 @@ $ npm install
 $ npm install -g httpserver jsonserver
 ```
 
-## Rodando o site do projeto
+## Rodando o site do projetogit pu
 ```
 $ npm run start:site
 ```

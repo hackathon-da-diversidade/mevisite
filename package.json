@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
     "start:api": "cd jsonserver && json-server api.json",
     "start:site": "cd public && httpserver --port 8080"
   },
@@ -26,6 +27,6 @@
   },
   "homepage": "https://github.com/hackathon-da-diversidade/mevisite#readme",
   "dependencies": {
-    "fontawesome": "^5.6.3"
+    "express": "^4.16.4"
   }
 }
