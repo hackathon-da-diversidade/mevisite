@@ -1,0 +1,53 @@
+main.content .depoimentos {
+  background-color: #e8e8e8;
+  width: auto;
+  padding: 50px 0px;
+}
+
+.depoimentos-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.depoimentos-cards div {
+  width: 300px;
+}
+
+.depoimentos-nome {
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.depoimento-quote {
+  width: 40px;
+  display: block;
+}
+
+.banner-footer {
+  height: 200px;
+  background: red;
+  margin-bottom: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+footer a {
+  margin-left: 20px;
+  color: gray;
+  margin-top: 20px;
+}
