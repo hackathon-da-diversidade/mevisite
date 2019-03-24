@@ -114,6 +114,7 @@ ul li.dislike{
 }
 
  .visite{
+  cursor: pointer;
   background-color: #00AFB2;
   padding: 10px 60px;
   border-radius: 20px;
