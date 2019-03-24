@@ -8,14 +8,15 @@
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/home.css">
+  <link rel="stylesheet" href="assets/css/depoimentos.css">
 </head>
 <body>
 
   <header class="topo">
     <nav>
       <ul>
-       <li><a href="#">Colabore</a></li>
-       <li><a href="#">Lares</a></li>
+        <li><a href="#">Colabore</a></li>
+        <li><a href="#">Lares</a></li>
       </ul>
     </nav>
     <div class="banner">
@@ -24,98 +25,100 @@
   </header>
 
   <main class="content">
+
     <section>
-      <h2>Por que me visitar?</h2>
-      <ul>
+      <h2 class="lista-residente-titulo">Conheça nossos residentes</h2>
+
+      <ul class="lista-residentes">
         <li>
           <figure>
-            <img src="#" alt="imagem de um residente">
+            <img src="assets/img/perfil.jpeg" alt="imagem de um residente">
           </figure>
-          <dl>
-            <dt>nome:</dt>
-            <dd>Vovó Juju</dd>
-            <dt>idade:</dt>
-            <dd>86</dd>
-            <dt>sonho:</dt>
-            <dd>viajar para um lugar bem bonito</dd>
-          </dl>
+          <div>
+            <strong>Ilse Maria, 83</strong>
+            <img class="icon-think" src="assets/img/think.png" alt="Icone de um sonho">
+            <p>Eu tenho um sonho: de viajar para um lugar bem bonito!</p>
+            <a class="btn btn-mevisite" href="#">Me conheça</a>
+          </div>
         </li>
+
         <li>
-          <figure>
-            <img src="#" alt="imagem de um residente">
-          </figure>
-          <dl>
-            <dt>nome:</dt>
-            <dd>Vovó Juju</dd>
-            <dt>idade:</dt>
-            <dd>86</dd>
-            <dt>sonho:</dt>
-            <dd>viajar para um lugar bem bonito</dd>
-          </dl>
-        </li>
-        <li>
-          <figure>
-            <img src="#" alt="imagem de um residente">
-          </figure>
-          <dl>
-            <dt>nome:</dt>
-            <dd>Vovó Juju</dd>
-            <dt>idade:</dt>
-            <dd>86</dd>
-            <dt>sonho:</dt>
-            <dd>viajar para um lugar bem bonito</dd>
-          </dl>
-        </li>
-        <li>
-          <figure>
-            <img src="#" alt="imagem de um residente">
-          </figure>
-          <dl>
-            <dt>nome:</dt>
-            <dd>Vovó Juju</dd>
-            <dt>idade:</dt>
-            <dd>86</dd>
-            <dt>sonho:</dt>
-            <dd>viajar para um lugar bem bonito</dd>
-          </dl>
-        </li>
-        <li>
-          <figure>
-            <img src="#" alt="imagem de um residente">
-          </figure>
-          <dl>
-            <dt>nome:</dt>
-            <dd>Vovó Juju</dd>
-            <dt>idade:</dt>
-            <dd>86</dd>
-            <dt>sonho:</dt>
-            <dd>viajar para um lugar bem bonito</dd>
-          </dl>
-        </li>
+            <figure>
+              <img src="assets/img/perfil.jpeg" alt="imagem de um residente">
+            </figure>
+            <div>
+              <strong>Ilse Maria, 83</strong>
+              <img class="icon-think" src="assets/img/think.png" alt="Icone de um sonho">
+              <p>Eu tenho um sonho: de viajar para um lugar bem bonito!</p>
+              <a class="btn btn-mevisite" href="#">Me conheça</a>
+            </div>
+          </li>
+
+          <li>
+              <figure>
+                <img src="assets/img/perfil.jpeg" alt="imagem de um residente">
+              </figure>
+              <div>
+                <strong>Ilse Maria, 83</strong>
+                <img class="icon-think" src="assets/img/think.png" alt="Icone de um sonho">
+                <p>Eu tenho um sonho: de viajar para um lugar bem bonito!</p>
+                <a class="btn btn-mevisite" href="#">Me conheça</a>
+              </div>
+            </li>
+
+            <li>
+                <figure>
+                  <img src="assets/img/perfil.jpeg" alt="imagem de um residente">
+                </figure>
+                <div>
+                  <strong>Ilse Maria, 83</strong>
+                  <img class="icon-think" src="assets/img/think.png" alt="Icone de um sonho">
+                  <p>Eu tenho um sonho: de viajar para um lugar bem bonito!</p>
+                  <a class="btn btn-mevisite" href="#">Me conheça</a>
+                </div>
+              </li>
       </ul>
     </section>
-    <section>
-      <h2>Como foi?</h2>
-      <div>
-        <q>exemplo de depoimento</q>
-        <p><strong>Fulano da Silva</strong> - <span>17/08/19</span> </p>
-      </div>
-      <div>
-        <q>exemplo de depoimento</q>
-        <p><strong>Fulano da Silva</strong> - <span>17/08/19</span> </p>
+
+    <section class="depoimentos">
+      <h2>Compartilhe experiências</h2>
+      <div class="depoimentos-cards">
+        <div>
+          <img src="./assets/img/aspas.png" class="depoimento-quote" />
+          <q>Eu adoro, porque tudo o que preciso sou atendida e rapidamente, coloquei todo o meu trabalho no meu site e foi visto por várias pessoas eu estou muito feliz com comunidades.net.</q>
+          <p class="depoimentos-nome">Fulano da Silva</p>
+          <p>17/08/19</p>
+        </div>
+        <div>
+          <img src="./assets/img/aspas.png" class="depoimento-quote" />
+          <q>Eu adoro, porque tudo o que preciso sou atendida e rapidamente, coloquei todo o meu trabalho no meu site e foi visto por várias pessoas eu estou muito feliz com comunidades.net.</q>
+          <p class="depoimentos-nome">Fulano da Silva</p>
+          <p>17/08/19</p>
+        </div>
+        <div>
+          <img src="./assets/img/aspas.png" class="depoimento-quote" />
+          <q>Eu adoro, porque tudo o que preciso sou atendida e rapidamente, coloquei todo o meu trabalho no meu site e foi visto por várias pessoas eu estou muito feliz com comunidades.net.</q>
+          <p class="depoimentos-nome">Fulano da Silva</p>
+          <p>17/08/19</p>
+        </div>
       </div>
     </section>
+
   </main>
+
+
+  <div class="banner-footer">
+    <img src="#" alt="imagem de um banner promocional">
+  </div>
+
   <footer>
-    <div>
-      <img src="#" alt="imagem de um banner promocional">
-    </div>
     <p>Me acompanhe nas redes sociais</p>
-    <ul>
-      <li><a href="#"><i class="fab fa-facebook"></a></i></li>
-      <li><a href="#"><i class="fab fa-instagram"></a></i></li>
-      <li><a href="#"><i class="fab fa-twitter"></a></i></li>
-    </ul>
+    <div>
+        <div><a href="https://www.facebook.com/mevisite"><i class="fab fa-facebook"></a></i></div>
+        <div><a href="https://www.facebook.com/visiteme"><i class="fab fa-instagram"></a></i></div>
+        <div><a href="https://www.facebook.com/mevisite_"><i class="fab fa-twitter"></a></i></div>
+  </div>
   </footer>
+
 </body>
 </html>
