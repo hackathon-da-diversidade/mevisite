@@ -64,6 +64,7 @@ body {
 main.content > section {
   width: 1024px;
   margin: 0 auto;
+  padding: 30px 0px;
 }
 
 .content section > h2 {
@@ -71,6 +72,7 @@ main.content > section {
   font-size: 27px;
   text-align: center;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 /* listagem residentes */
@@ -82,7 +84,7 @@ main.content > section {
 
 .lista-residentes li {
   width: 25%;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .lista-residentes li div {
@@ -150,4 +152,10 @@ main.content > section {
 
 .icon-think{
   width: 30px;
+}
+
+
+.btn.btn-voltar {
+  border: none;
+  text-align: left;
 }
