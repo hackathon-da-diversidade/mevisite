@@ -152,3 +152,82 @@ body{
   font-size: 18px;
   margin: 10px 0px;
 }
+
+
+.lista-residentes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.lista-residentes li {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+.lista-residentes li div {
+  border: 2px solid #ff7400;
+  border-top: none;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 0px 0px 15px 15px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.lista-residente-titulo {
+  margin: 30px;
+}
+
+.lista-residentes li figure {
+  height: 150px;
+  overflow: hidden;
+  width: 60%;
+  margin: auto;
+}
+
+.lista-residentes li figure > img {
+  display: block;
+  width: 100%;
+}
+
+.lista-residentes li strong {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.lista-residentes li p {
+  width: 80%;
+  margin: 10px auto;
+  text-align: justify;
+}
+
+.lista-residentes li a.btn {
+  position: absolute;
+  bottom: -15px;
+  left: 10%;
+}
+
+.btn {
+  border-radius: 10px;
+  padding: 7px;
+  display: block;
+  width: 80%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-mevisite {
+  background-color: #00b2b4;
+  color: white;
+  text-transform: uppercase;
+}
+
+.icon-think{
+  width: 30px;
+}
