@@ -26,12 +26,8 @@
     "url": "https://github.com/hackathon-da-diversidade/mevisite/issues"
   },
   "homepage": "https://github.com/hackathon-da-diversidade/mevisite#readme",
-<<<<<<< HEAD
-  "dependencies": {}
-=======
   "dependencies": {
     "express": "^4.16.4",
     "fontawesome": "^5.6.3"
   }
->>>>>>> 280949baf47581669abf35b98d9d6a09bf3917a8
 }
