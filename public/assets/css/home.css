@@ -62,7 +62,6 @@ main.content > section {
   font-weight: bold;
   font-size: 27px;
   text-align: center;
-  padding: 10px;
   margin-bottom: 20px;
 }
 
@@ -116,7 +115,7 @@ main.content > section {
 .lista-residentes li p {
   width: 80%;
   margin: 10px auto;
-  text-align: justify;
+  text-align: left;
 }
 
 .lista-residentes li a.btn {
