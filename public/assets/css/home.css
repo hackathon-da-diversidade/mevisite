@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800');
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'Dosis', sans-serif;
@@ -60,4 +64,63 @@ body {
 main.content > section {
   width: 1024px;
   margin: 0 auto;
+}
+
+.content section > h2 {
+  font-weight: bold;
+  font-size: 27px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid
+}
+
+/* listagem residentes */
+
+.lista-residentes {
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lista-residentes li {
+  width: 25%;
+  border: 1px solid;
+}
+
+.lista-residentes li div {
+  border: 1px solid red;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 0px 0px 15px 15px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.lista-residentes li figure {
+  border: 1px solid;
+  height: 150px;
+  overflow: hidden;
+}
+
+.lista-residentes li img {
+  display: block;
+  width: 100%;
+}
+
+.lista-residentes li strong {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}
+
+.lista-residentes li p {
+  border: 1px solid blue;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.lista-residentes li a {
+  position: absolute;
+  bottom: 0;
 }
