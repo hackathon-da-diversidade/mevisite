@@ -71,38 +71,40 @@ main.content > section {
   font-size: 27px;
   text-align: center;
   padding: 10px;
-  border: 1px solid
 }
 
 /* listagem residentes */
 
 .lista-residentes {
-  border: 1px solid;
   display: flex;
   flex-wrap: wrap;
 }
 
 .lista-residentes li {
   width: 25%;
-  border: 1px solid;
+  margin-bottom: 20px;
 }
 
 .lista-residentes li div {
-  border: 1px solid red;
-  width: 80%;
+  border: 2px solid #ff7400;
+  border-top: none;
+  width: 60%;
   margin: 0 auto;
   border-radius: 0px 0px 15px 15px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+  padding-top: 10px;
   position: relative;
+  text-align: center;
 }
 
 .lista-residentes li figure {
-  border: 1px solid;
   height: 150px;
   overflow: hidden;
+  width: 60%;
+  margin: auto;
 }
 
-.lista-residentes li img {
+.lista-residentes li figure > img {
   display: block;
   width: 100%;
 }
@@ -112,15 +114,36 @@ main.content > section {
   text-transform: uppercase;
   text-align: center;
   display: block;
+  margin-bottom: 10px;
 }
 
 .lista-residentes li p {
-  border: 1px solid blue;
   width: 80%;
-  margin: 0 auto;
+  margin: 10px auto;
+  text-align: justify;
 }
 
-.lista-residentes li a {
+.lista-residentes li a.btn {
   position: absolute;
-  bottom: 0;
+  bottom: -15px;
+  left: 10%;
+}
+
+.btn {
+  border-radius: 10px;
+  padding: 7px;
+  display: block;
+  width: 80%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-mevisite {
+  background-color: #00b2b4;
+  color: white;
+  text-transform: uppercase;
+}
+
+.icon-think{
+  width: 30px;
 }
