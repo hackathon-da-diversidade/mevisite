@@ -1,31 +1,154 @@
 body{
   font-family: 'Dosis', sans-serif;
+  background: #efefef;
 }
 
 .topo nav {
-  padding: 15px 0px;
-  text-align: right;
+  text-align: left;
   width: 100%;
   margin: 0 auto;
   background-color: #00b2b4;
+  margin-bottom: 40px;
 }
 
-.topo nav ul {
-  overflow: hidden;
-  display: inline-block;
-}
-
-.topo nav li {
-  width: auto;
-  float: left;
-  margin-left: 20px;
-}
 
 .topo nav a {
   display: block;
-  border: 1px solid white;
-  padding: 10px;
-  border-radius: 4px;
   color: white;
-  text-decoration: none;
+  font-weight: bold;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+
+.foto > img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.dados h1.nome{
+  font-size: 1.8em;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.dados h2{
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.sonho .titulo{
+  color: gray;
+  font-size: 17px;
+}
+
+
+.localizacao{
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.pin-imagem{
+  display: inline-block;
+}
+
+.pin-imagem img{
+  display: inline-block;
+  width: 55px;
+  height: auto;
+}
+
+.informacoes .endereco{
+  color: gray;
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.informacoes .horario{
+  color: #555;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  padding-left: 15px;
+}
+
+.botoes-contato .email{
+  background-color: #00AFB2;
+  padding: 10px 30px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+.botoes-contato .telefone{
+  border:1px solid #00AFB2;
+  padding: 10px 15px;
+  border-radius: 20px;
+  text-align: center;
+  color: #00AFB2;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.bg-cinza{
+  background: lightgray;
+}
+
+.necessidades{
+  margin-top: 70px;
+  padding: 40px 0px;
+  margin-bottom: 30px;
+}
+
+.necessidades .titulo{
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.doacoes-item{
+  text-align: center;
+}
+
+.doacoes-icon{
+  width: 70px;
+  height: 70px;
+}
+
+.doacoes-descricao{
+  text-align: center;
+}
+
+.doacao-button{
+  text-align: center;
+}
+
+.doacao-button .botao{
+  background-color: #00AFB2;
+  padding: 10px 30px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+.conheca {
+  text-align: center;
+  margin-top: 50px;
+  padding: 40px 0px;
+}
+
+.conheca .titulo {
+  color: #333;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.conheca .sub-titulo{
+  color: #555;
+  font-size: 18px;
+  margin: 10px 0px;
 }
