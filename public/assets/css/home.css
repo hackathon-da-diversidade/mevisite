@@ -99,6 +99,10 @@ main.content > section {
   text-align: center;
 }
 
+.lista-residente-titulo {
+  margin: 30px;
+}
+
 .lista-residentes li figure {
   height: 150px;
   overflow: hidden;
