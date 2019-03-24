@@ -1,7 +1,22 @@
 body{
-
   font-family: 'Dosis', sans-serif;
+}
 
+.topo nav {
+  text-align: left;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #00b2b4;
+  margin-bottom: 40px;
+}
+
+
+.topo nav a {
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  font-size: 16px;
 }
 
 
