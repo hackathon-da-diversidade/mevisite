@@ -153,3 +153,9 @@ main.content > section {
 .icon-think{
   width: 30px;
 }
+
+
+.btn.btn-voltar {
+  border: none;
+  text-align: left;
+}
