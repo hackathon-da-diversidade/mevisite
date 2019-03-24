@@ -30,6 +30,7 @@ body{
   font-size: 1.8em;
   margin-bottom: 0px;
   font-weight: bold;
+  margin-top: 20px;
 }
 
 .dados h2{
@@ -58,6 +59,7 @@ body{
   display: inline-block;
   width: 55px;
   height: auto;
+  margin-left: -17px;
 }
 
 .informacoes .endereco{
@@ -226,8 +228,30 @@ body{
   background-color: #00b2b4;
   color: white;
   text-transform: uppercase;
+  padding: 0px;
 }
 
 .icon-think{
   width: 30px;
+}
+
+.bg-cinza-escuro{
+  height: 250px;
+  background-color: grey;
+  margin-top: 25px;
+}
+
+.conheca-button{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.conheca-button .botao{
+  background-color: #00AFB2;
+  padding: 10px 30px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
 }
