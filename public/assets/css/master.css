@@ -25,6 +25,16 @@ p.sonho{
   width: auto;
   display: inline-block;
   border-radius: 12px;
+  position: relative;
+}
+
+p.sonho::after{
+    content: url("../img/think.png");
+    width: 30px;
+    height: 30px;
+    top: -28px;
+    right: 1px;
+    display: inline-block;
 }
 
 
@@ -36,12 +46,12 @@ p.titulo-historia{
 
 ul li.like{
   background: url('../img/like.png') no-repeat left bottom;
-  padding: 25px 10px 4px 55px;
+  padding: 30px 10px 10px 55px;
 }
 
 ul li.dislike{
   background: url('../img/dislike.png') no-repeat left bottom;
-  padding: 25px 10px 4px 55px;
+  padding: 30px 10px 20px 55px;
 }
 
 
