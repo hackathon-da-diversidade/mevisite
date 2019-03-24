@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/hackathon-da-diversidade/mevisite/issues"
   },
-  "homepage": "https://github.com/hackathon-da-diversidade/mevisite#readme"
+  "homepage": "https://github.com/hackathon-da-diversidade/mevisite#readme",
+  "dependencies": {
+    "fontawesome": "^5.6.3"
+  }
 }
