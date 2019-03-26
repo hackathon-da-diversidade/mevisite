@@ -1,32 +1,25 @@
 {
   "name": "mevisite",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "start:api": "cd jsonserver && json-server api.json",
-    "start:site": "cd public && httpserver --port 8080"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hackathon-da-diversidade/mevisite.git"
-  },
-  "keywords": [
-    "ONGs",
-    "Lares",
-    "Visitas",
-    "Voluntarios",
-    "Residentes"
-  ],
-  "author": "Inimigos da Previdencia",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hackathon-da-diversidade/mevisite/issues"
-  },
-  "homepage": "https://github.com/hackathon-da-diversidade/mevisite#readme",
+  "version": "0.1.0",
+  "private": false,
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

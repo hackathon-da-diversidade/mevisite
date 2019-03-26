@@ -1,127 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Me Visite</title>
-  <link rel="stylesheet" href="assets/css/reset.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/home.css">
-  <link rel="stylesheet" href="assets/css/depoimentos.css">
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-<body>
-  <header class="topo">
-    <nav>
-      <ul style="display: flex;justify-content: flex-end;position: relative;">
-        <li style="position: absolute;left: 0;">
-          <a style="border: none;font-weight: 700;text-transform: uppercase;" href="#">Me visite</a>
-        </li>
-        <li><a href="#">Colabore</a></li>
-        <li><a href="lar.html">Sobre o lar</a></li>
-        <li><a href="time.html">Equipe</a></li>
-      </ul>
-    </nav>
-  </header>
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-  <div class="banner">
-    <img style="width: 100%;" src="./assets/img/banner-home.png" alt="imagem do banner">
-  </div>
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-  <main class="content">
-    <section>
-      <h2 class="lista-residente-titulo">Conheça nossos residentes</h2>
-      <ul class="lista-residentes">
-        <li>
-          <figure>
-            <img src="assets/img/ilseMaria.png" alt="imagem de um residente">
-          </figure>
-          <div>
-            <strong>Ilse Maria, 83</strong>
-            <img class="icon-think" src="assets/img/think.png" alt="Icone de um sonho">
-            <p>Eu tenho um sonho: de viajar para um lugar bem bonito!</p>
-            <a class="btn btn-mevisite" href="idoso.html">Me conheça</a>
-          </div>
-        </li>
-
-        <li>
-            <figure>
-              <img src="assets/img/almira.png" alt="imagem de um residente">
-            </figure>
-            <div>
-              <strong>Almira, 78</strong>
-              <img class="icon-think" src="assets/img/think.png" alt="Icone de um sonho">
-              <p>Eu tenho um sonho: de viajar para um lugar bem bonito!</p>
-              <a class="btn btn-mevisite" href="idoso.html">Me conheça</a>
-            </div>
-          </li>
-
-          <li>
-              <figure>
-                <img src="assets/img/perfil.jpeg" alt="imagem de um residente">
-              </figure>
-              <div>
-                <strong>Eduardo, 77</strong>
-                <img class="icon-think" src="assets/img/think.png" alt="Icone de um sonho">
-                <p>Eu tenho um sonho: de viajar para um lugar bem bonito!</p>
-                <a class="btn btn-mevisite" href="idoso.html">Me conheça</a>
-              </div>
-            </li>
-
-            <li>
-                <figure>
-                  <img src="assets/img/antonio.png" alt="imagem de um residente">
-                </figure>
-                <div>
-                  <strong>Antonio, 79</strong>
-                  <img class="icon-think" src="assets/img/think.png" alt="Icone de um sonho">
-                  <p>Eu tenho um sonho: de viajar para um lugar bem bonito!</p>
-                  <a class="btn btn-mevisite" href="idoso.html">Me conheça</a>
-                </div>
-              </li>
-      </ul>
-    </section>
-
-    <section class="depoimentos">
-      <h2>Compartilhe experiências</h2>
-      <div class="depoimentos-cards">
-        <div>
-          <img src="./assets/img/aspas.png" class="depoimento-quote" />
-          <q>Eu adoro, porque tudo o que preciso sou atendida e rapidamente, coloquei todo o meu trabalho no meu site e foi visto por várias pessoas eu estou muito feliz com comunidades.net.</q>
-          <p class="depoimentos-nome">Fulano da Silva</p>
-          <p>17/08/19</p>
-        </div>
-        <div>
-          <img src="./assets/img/aspas.png" class="depoimento-quote" />
-          <q>Eu adoro, porque tudo o que preciso sou atendida e rapidamente, coloquei todo o meu trabalho no meu site e foi visto por várias pessoas eu estou muito feliz com comunidades.net.</q>
-          <p class="depoimentos-nome">Fulano da Silva</p>
-          <p>17/08/19</p>
-        </div>
-        <div>
-          <img src="./assets/img/aspas.png" class="depoimento-quote" />
-          <q>Eu adoro, porque tudo o que preciso sou atendida e rapidamente, coloquei todo o meu trabalho no meu site e foi visto por várias pessoas eu estou muito feliz com comunidades.net.</q>
-          <p class="depoimentos-nome">Fulano da Silva</p>
-          <p>17/08/19</p>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-
-  <div class="banner-footer">
-    <img style="width:100%;" src="./assets/img/banner-home-footer.png" alt="imagem de um banner promocional">
-  </div>
-
-  <footer>
-    <p>Nos acompanhe nas redes sociais</p>
-    <div>
-        <div><a href="https://www.facebook.com/mevisite"><i class="fab fa-facebook"></a></i></div>
-        <div><a href="https://www.instagram.com/visiteme"><i class="fab fa-instagram"></a></i></div>
-        <div><a href="https://www.twitter.com/mevisite_"><i class="fab fa-twitter"></a></i></div>
-  </div>
-  </footer>
-
-</body>
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
 </html>
