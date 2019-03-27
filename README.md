@@ -1,4 +1,5 @@
 # mevisite
+> Uma plataforma para aumentar o número de visitas e doações em lares.
 
 ## Nosso site *-*
 https://mevisite.herokuapp.com/
@@ -6,25 +7,11 @@ https://mevisite.herokuapp.com/
 ## Como instalar
 ```
 $ cd meviste
-$ npm install
-```
-
-## Dependencias globais necessárias
-```
-$ npm install -g httpserver jsonserver
-```
-
-## Rodando o site do projetogit pu
-```
-$ npm run start:site
-```
-
-## Rodando a API
-```
-$ npm run start:api
+$ yarn
 ```
 
 ## Padrão de mensagem de commit
 ```
-"[@githubuser] - messagem de commit"
+"[@githubuser] - msg de commit explicando o motivo da mudança"
 ```
+
